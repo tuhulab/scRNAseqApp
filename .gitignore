@@ -5,3 +5,5 @@
 **.DS_Store
 *.Rproj
 scRNAseqAppFiles
+/data/pbmc_small
+/visualization_data

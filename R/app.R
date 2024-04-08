@@ -32,15 +32,15 @@ scRNAseqApp <- function(
         app_path = getwd(),
         datafolder = "data",
         defaultDataset = "pbmc_small",
-        windowTitle = "scRNAseq/scATACseq database",
+        windowTitle = "CellSea: Enable to See the Cell",
         banner = system.file(
             'assets', 'img', 'banner.png',
             package = 'scRNAseqApp'),
         footer = tagList(
             HTML("&copy;"),
-            "2020 -",
-            format(Sys.Date(), "%Y"),
-            "jianhong@duke"
+            "2024",
+            # format(Sys.Date(), "%Y"),
+            "CellSea@Statens Serum Institut"
         ),
         maxRequestSize = 1073741824,
         timeout = 30,
